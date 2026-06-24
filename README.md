@@ -1,43 +1,60 @@
 # Guess the Number 🎯
 
-A simple and interactive number guessing game built using JavaScript, HTML, and CSS.
+A simple console-based Guess the Number game developed using Java.
 
 ## About the Project
 
-Guess the Number is a fun web-based game where the player tries to guess a randomly generated number within a specified range. The game provides hints after each guess, indicating whether the guessed number is too high or too low, helping the player reach the correct answer.
+This project is a beginner-friendly Java application where the computer generates a random number, and the player must guess it correctly. The program provides feedback after each attempt to guide the user toward the correct answer.
 
 ## Features
 
 * Random number generation
-* User-friendly interface
-* Instant feedback for each guess
-* Tracks attempts made by the player
-* Responsive and lightweight design
-* Easy to understand and play
+* User input through console
+* Feedback messages ("Too High" / "Too Low")
+* Tracks number of attempts
+* Simple and interactive command-line interface
 
-## Technologies Used
+## How to Run
 
-* HTML5
-* CSS3
-* JavaScript
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/rawoof28/Guess-the-Number.git
+   ```
+
+2. Open the project in any Java IDE (Eclipse, IntelliJ, VS Code).
+
+3. Compile the file:
+
+   ```bash
+   javac GuessNumber.java
+   ```
+
+4. Run the program:
+
+   ```bash
+   java GuessNumber
+   ```
 
 ## How to Play
 
-1. Enter a number in the input field.
-2. Click the "Check" button to submit your guess.
-3. Receive feedback indicating whether your guess is too high or too low.
-4. Continue guessing until you find the correct number.
-5. Try to complete the game in the fewest attempts possible.
+1. Run the program.
+2. The system generates a random number.
+3. Enter your guess.
+4. The program will tell you if your guess is too high or too low.
+5. Continue until you guess the correct number.
+6. Try to win in minimum attempts.
 
-## Learning Objectives
+## Technologies Used
 
-This project was created to practice:
+* Java (Core Java)
 
-* DOM manipulation
-* Event handling
-* JavaScript logic and conditions
-* User input validation
-* Front-end web development fundamentals
+## Concepts Used
+
+* Random class
+* Loops (while / do-while)
+* Conditional statements (if-else)
+* Scanner class for input handling
 
 ## Author
 
